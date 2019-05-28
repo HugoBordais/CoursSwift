@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		834B5282229D99450058E140 /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834B5281229D99450058E140 /* ArticleDetailViewController.swift */; };
+		834B5285229DA0D90058E140 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834B5284229DA0D90058E140 /* Article.swift */; };
+		83E2E3CB22983256000016F8 /* TimelineViewControllerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E2E3CA22983256000016F8 /* TimelineViewControllerCollectionViewController.swift */; };
+		83E2E3D322984C36000016F8 /* TimelineCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E2E3D122984C36000016F8 /* TimelineCollectionViewCell.swift */; };
+		83E2E3D422984C36000016F8 /* TimelineCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83E2E3D222984C36000016F8 /* TimelineCollectionViewCell.xib */; };
 		83F3C075228C73A80037EEFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3C074228C73A80037EEFA /* AppDelegate.swift */; };
-		83F3C077228C73A80037EEFA /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F3C076228C73A80037EEFA /* TimelineViewController.swift */; };
 		83F3C07A228C73A80037EEFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F3C078228C73A80037EEFA /* Main.storyboard */; };
 		83F3C07C228C73A90037EEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F3C07B228C73A90037EEFA /* Assets.xcassets */; };
 		83F3C07F228C73A90037EEFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F3C07D228C73A90037EEFA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		834B5281229D99450058E140 /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
+		834B5284229DA0D90058E140 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		83E2E3CA22983256000016F8 /* TimelineViewControllerCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewControllerCollectionViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		83E2E3D122984C36000016F8 /* TimelineCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineCollectionViewCell.swift; sourceTree = "<group>"; };
+		83E2E3D222984C36000016F8 /* TimelineCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimelineCollectionViewCell.xib; sourceTree = "<group>"; };
 		83F3C071228C73A80037EEFA /* Vinted_Course.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vinted_Course.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F3C074228C73A80037EEFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83F3C076228C73A80037EEFA /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		83F3C079228C73A80037EEFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83F3C07B228C73A90037EEFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83F3C07E228C73A90037EEFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +43,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		834B527E229D975A0058E140 /* ArticleDetail */ = {
+			isa = PBXGroup;
+			children = (
+				834B5281229D99450058E140 /* ArticleDetailViewController.swift */,
+			);
+			path = ArticleDetail;
+			sourceTree = "<group>";
+		};
+		834B5283229DA0C40058E140 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				834B5284229DA0D90058E140 /* Article.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		83E2E3CC229845AB000016F8 /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				83E2E3D122984C36000016F8 /* TimelineCollectionViewCell.swift */,
+				83E2E3D222984C36000016F8 /* TimelineCollectionViewCell.xib */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
 		83F3C068228C73A80037EEFA = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +87,7 @@
 		83F3C073228C73A80037EEFA /* Vinted_Course */ = {
 			isa = PBXGroup;
 			children = (
+				834B5283229DA0C40058E140 /* Entities */,
 				83F3C086228C7B090037EEFA /* Application */,
 				83F3C088228C7BAD0037EEFA /* Epics */,
 			);
@@ -90,6 +124,7 @@
 		83F3C089228C7D950037EEFA /* Timeline */ = {
 			isa = PBXGroup;
 			children = (
+				834B527E229D975A0058E140 /* ArticleDetail */,
 				83F3C08A228C7DB20037EEFA /* TimelineHub */,
 			);
 			path = Timeline;
@@ -98,7 +133,8 @@
 		83F3C08A228C7DB20037EEFA /* TimelineHub */ = {
 			isa = PBXGroup;
 			children = (
-				83F3C076228C73A80037EEFA /* TimelineViewController.swift */,
+				83E2E3CC229845AB000016F8 /* Reusables */,
+				83E2E3CA22983256000016F8 /* TimelineViewControllerCollectionViewController.swift */,
 			);
 			path = TimelineHub;
 			sourceTree = "<group>";
@@ -171,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83F3C07F228C73A90037EEFA /* LaunchScreen.storyboard in Resources */,
+				83E2E3D422984C36000016F8 /* TimelineCollectionViewCell.xib in Resources */,
 				83F3C07C228C73A90037EEFA /* Assets.xcassets in Resources */,
 				83F3C07A228C73A80037EEFA /* Main.storyboard in Resources */,
 			);
@@ -183,8 +220,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83F3C077228C73A80037EEFA /* TimelineViewController.swift in Sources */,
+				83E2E3CB22983256000016F8 /* TimelineViewControllerCollectionViewController.swift in Sources */,
 				83F3C075228C73A80037EEFA /* AppDelegate.swift in Sources */,
+				834B5282229D99450058E140 /* ArticleDetailViewController.swift in Sources */,
+				83E2E3D322984C36000016F8 /* TimelineCollectionViewCell.swift in Sources */,
+				834B5285229DA0D90058E140 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
